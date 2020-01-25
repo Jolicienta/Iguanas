@@ -1,0 +1,146 @@
+/*font-family: 'Raleway', sans-serif;*/
+
+html {
+  margin: 0 auto;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+/* ENCABEZADO */
+header {
+  background-color: #000000;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 59px;
+  color: #FFFFFF;
+  width: 100%;
+  height: 800px;
+}
+
+header img {
+  width: 100%;
+}
+
+header p {
+  margin: auto;
+  padding: 7px;
+}
+
+/* Sección presentación */
+.texto {
+  background-color: #000000;
+  height: 348px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto .parrafos {
+  padding: 76px 655px 75px 150px;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 19px;
+  position: absolute;
+}
+
+.texto .parrafos p {
+  margin: 0;
+}
+
+#iguana1 {
+  width: 399px;
+  height: 237px;
+  display: block;
+  position: absolute;
+  right: 150px;
+}
+
+/* Sección descripción desc-section */
+.desc-section {
+  background-color: #1E1A13;
+  color: #FFFFFF;
+  opacity: 98%;
+  height: 348px;
+  text-align: center;
+}
+
+.desc-section p {
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 75px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.desc-section ul {
+  padding: 0px;
+  text-align: center;
+}
+
+.desc-section ul li {
+  display: inline-block;
+}
+
+.desc-section i {
+  font-size: 37px;
+}
+
+.desc-section i p {
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 16.36px;
+}
+
+
+/* Sección imágenes*/
+.pics {
+  background-color: #000000;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pics img {
+  width: 316px;
+  height: 202px;
+}
+
+.pics ul {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.pics ul li {
+  display: inline-block;
+}
+
+.pics #pic_dif {
+  padding-left: 10px;
+}
+
+
+/* FOOTER */
+footer {
+  height: 100px;
+  background-color: #1E1A13;
+  opacity: 94%;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-top: 20px;
+}
